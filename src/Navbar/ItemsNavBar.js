@@ -1,32 +1,32 @@
  export const MenuItems= [
     {
 title: 'Home',
-url:'Home.js',
+url:'http://localhost:3000/HomePage',
 clsName: 'nav-links'
     },
     {
-title: 'Services',
-url:'#',
+title: 'Destination',
+url:'http://localhost:3000/Destination',
 clsName: 'nav-links'
     },
     {
 title: 'About Us',
-url:'AboutUs.js',
+url:'http://localhost:3000/AboutUs',
 clsName: 'nav-links'
     },
     {
 title: 'Blog',
-url:'#',
+url:'http://localhost:3000/Blog',
 clsName: 'nav-links'
     },
     {
 title: 'Contact',
-url:'#',
+url:'http://localhost:3000/Contact',
 clsName: 'nav-links'
     },
     {
-title: 'Sign up',
-url:'#',
+title: 'Sign Up',
+url:'http://localhost:3000/SingUp',
 clsName: 'nav-links'
     },
 ]

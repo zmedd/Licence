@@ -13,16 +13,22 @@ display:inline;
 font-family: 'Shippori Mincho', serif;
 display:inline;
 
+
 a{
     text-decoration:none;
-   
+    color:wheat;
+    padding:1.5rem; 
+    
 }
 ul ,li{
   list-style:none;
 margin-top:0;
- padding:1.5rem; 
+ 
  display:flex;
  justify-content:center;
+ background-color:#101d42;
+ position:relative;
+
 
 }
 

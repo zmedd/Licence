@@ -2,6 +2,9 @@ import React from 'react';
 
 export const AboutUs = () =>{
     return(
-        <div>Despre</div>
+        <div>
+            <h1>About</h1>
+        </div>
     )
 }
+export default AboutUs;

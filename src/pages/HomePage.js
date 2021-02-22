@@ -1,19 +1,11 @@
 import React from 'react';
-
-import { Container, Section,Posts } from './HomePage.style';
+import NavBar from '../Navbar/NavBar';
 
 const HomePage = () => {
     return(
-       <Container>
-<Section>
-    <Posts>
-  
-    </Posts>
-</Section>
-<Section>Hello</Section>
-
-
-       </Container>
+        <div>
+        <h1>HomePage</h1>
+        </div>
     );
 }
 

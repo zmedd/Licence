@@ -4,7 +4,7 @@ import {NavBarStyle} from './NavBar.style';
 
 
 
-export const NavBar = () =>{
+export const NavBar = ({url}) =>{
     return(
         <NavBarStyle>
    <div >
