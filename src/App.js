@@ -5,7 +5,7 @@ import  AboutUs from './pages/AboutUs';
 import Destination from './pages/Destination';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
-import SignUp from './pages/SignUp'
+import SignUp from './pages/SignUp';
 
 import {MenuItems} from './Navbar/ItemsNavBar';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
