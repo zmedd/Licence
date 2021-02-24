@@ -8,10 +8,12 @@ export const NavBar = ({url}) =>{
     return(
         <NavBarStyle>
    <div >
+      
        <nav className="Navbar">
+
 <ul>
-   
-    {MenuItems.map ( (item , index) =>{
+ 
+    { MenuItems.map ( (item , index) =>{
 return(
    
     <li key={index} >
