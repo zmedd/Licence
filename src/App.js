@@ -6,8 +6,6 @@ import Destination from './pages/Destination';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import SignUp from './pages/SignUp';
-
-import {MenuItems} from './Navbar/ItemsNavBar';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
@@ -27,7 +25,7 @@ function App() {
    <Route exact path='/aboutus' component={AboutUs} />
    <Route exact path='/blog' component={Blog} />
    <Route exact path='/contact' component={Contact}/>
-   <Route exact path='/signUp' component={SignUp}/>  
+   <Route  exact path='/signup' component={SignUp} />
    {/* nu functioneaza signUp */}
   </Switch>
 
