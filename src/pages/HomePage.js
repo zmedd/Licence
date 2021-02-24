@@ -6,7 +6,7 @@ const HomePage = () => {
     return(
         <div>
         <h1>HomePage</h1>
-     <video  play loop >
+     <video autoPlay  loop >
          <source src={video} type="video/mp4" />
      </video>
         </div>

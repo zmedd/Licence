@@ -1,14 +1,15 @@
   import styled from 'styled-components';
-  import {colors} from '../environment/colors';
+  import {color} from '../environment/colors';
 
   export const Container = styled.div`
   width:100%;
+  color: ${color.red}; 
  
   `;
   
   export const  Section = styled.div`
   width:100%;
-  color:red;  
+  
   `;
   
   export const Posts = styled.div`
