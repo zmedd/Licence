@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const NavBarStyle = styled.div`
-display:inline-block;
+display:inline-flex;
 width:100%;
 font-size:1.5rem;
  padding:0.5 2rem; 
@@ -23,7 +23,6 @@ a{
 ul ,li{
   list-style:none;
 margin-top:0;
- 
  display:flex;
  justify-content:center;
  background-color:#101d42;

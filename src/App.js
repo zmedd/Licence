@@ -6,6 +6,7 @@ import Destination from './pages/Destination';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import SignUp from './pages/SignUp';
+import Footer from './Footer/Footer';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
@@ -29,6 +30,7 @@ function App() {
    {/* nu functioneaza signUp */}
   </Switch>
 
+<Footer />
  </Router>
 
   
