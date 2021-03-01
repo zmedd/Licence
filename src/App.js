@@ -26,7 +26,7 @@ function App() {
    <Route exact path='/aboutus' component={AboutUs} />
    <Route exact path='/blog' component={Blog} />
    <Route exact path='/contact' component={Contact}/>
-   <Route  exact path='/signup' component={SignUp} />
+   <Route exact path='/signup' component={SignUp} />
    {/* nu functioneaza signUp */}
   </Switch>
 

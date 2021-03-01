@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container,Title,ContentFooter,Column,Row } from '../Footer/Footer.style';
+import { Container,Title,Column,Row } from '../Footer/Footer.style';
 
+import { FaGithub, FaInstagram ,FaFacebookF } from 'react-icons/fa';
 
 
 
@@ -8,36 +9,40 @@ const Footer = () => {
     return(
         <div>
             <Container>
-            
-<ContentFooter>
 
-  <Title>Titlu</Title>
-<Column>
-<Row>
-    <div>
-    <p>ceva</p>
-    <p>ceva</p>
-    </div>
-    </Row>
-</Column>
-<Column>
-<Row>
-    <div>
-    <p>ceva</p>
-    <p>ceva</p>
-    </div>
-    </Row>
-</Column>
-
-
-</ContentFooter>
-
+            <Row>
+                <Column>
+                <h1>Aceste</h1>
+                <p>unu</p>
+                </Column>
+                <Column>
+ 
+                <h3>Home</h3>
+                <h3>Destination</h3>
+                <h3>AboutUs</h3>
+                <h3>Blog</h3>
+                <h3>Contact</h3>
+                <p>Sing Up</p>
+                </Column>
+                <Column>
+                <Row>
+                    <FaGithub  className='github'/>
+                </Row>
+                <Row>
+                    <FaInstagram className='instagram'/>
+                </Row>
+                <Row>
+                   <FaFacebookF  className='fecebook'/>
+                </Row>
+              
+                </Column>
+            </Row>
 
 
             </Container>
-       
-    
-        </div>
+         
+         
+         </div>
     );
 }
 

@@ -2,13 +2,24 @@ import styled from 'styled-components';
 import {color} from '../environment/colors';
 
 export const   Container = styled.div`
-background-color: ${color.yellow};
-margin:0;
+background-color: ${color.blue};
 
-@media (max-width: 600px) {
-    background-color:red;
-
-}
+margin-top:2rem;
+color: white;
+  position: relative;
+  z-index: 3;
+  
+ .github{
+     font-size:2rem;
+ }
+ .instagram{
+     font-size:2rem;
+    margin-top:0.5rem;
+ }
+ .fecebook{
+    font-size:2rem;
+    margin-top:0.5rem; 
+ }
 `;
 
 export const ContentFooter = styled.div`
@@ -22,11 +33,12 @@ text-align:center;
 
 export const Row = styled.div`
 display:flex;
-border:1px solid blue;
+
+flex-wrap:wrap;
 
 `;
+
 export const Column = styled.div`
-display:flex;
-text-align:center;flex-wrap:wrap;
+width:33.3333%;
 
 `;
