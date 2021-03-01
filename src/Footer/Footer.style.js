@@ -33,12 +33,13 @@ text-align:center;
 
 export const Row = styled.div`
 display:flex;
-
 flex-wrap:wrap;
 
 `;
 
 export const Column = styled.div`
-width:33.3333%;
+width:50%;
+text-align:center;
+align-items:center;
 
 `;

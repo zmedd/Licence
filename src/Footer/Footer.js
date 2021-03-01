@@ -11,12 +11,8 @@ const Footer = () => {
             <Container>
 
             <Row>
-                <Column>
-                <h1>Aceste</h1>
-                <p>unu</p>
-                </Column>
-                <Column>
- 
+            
+               <Column>
                 <h3>Home</h3>
                 <h3>Destination</h3>
                 <h3>AboutUs</h3>
@@ -26,13 +22,19 @@ const Footer = () => {
                 </Column>
                 <Column>
                 <Row>
+                    <a href="https://github.com/victoria27199">
                     <FaGithub  className='github'/>
+                    </a>
                 </Row>
                 <Row>
+                <a href="https://www.instagram.com/v.99271/">
                     <FaInstagram className='instagram'/>
+                    </a>
                 </Row>
                 <Row>
+                <a href="#">
                    <FaFacebookF  className='fecebook'/>
+                   </a>
                 </Row>
               
                 </Column>
