@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 
+
 export const NavBarStyle = styled.div`
 display:inline-flex;
 width:100%;
