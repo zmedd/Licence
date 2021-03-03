@@ -20,6 +20,10 @@ color: white;
     font-size:2rem;
     margin-top:0.5rem; 
  }
+ .linkedin{
+    font-size:2rem;
+    margin-top:0.5rem; 
+ }
 `;
 
 export const ContentFooter = styled.div`

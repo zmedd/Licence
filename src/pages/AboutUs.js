@@ -1,9 +1,12 @@
 import React from 'react';
+import { Container } from './AboutUs.style';
 
 export const AboutUs = () =>{
     return(
         <div>
-            <h1>About</h1>
+         <Container>
+             <p>Salut</p>
+         </Container>
         </div>
     )
 }

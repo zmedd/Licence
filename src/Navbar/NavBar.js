@@ -29,7 +29,6 @@ return(
    
 </ul>
        </nav>
-
       
    </div> 
    </NavBarStyle>

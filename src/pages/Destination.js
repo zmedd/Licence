@@ -13,12 +13,13 @@ const Destination = () => {
     return(
         <div>
         <h1>Destination</h1>
+        
         <Container >
 <Col>
-<Img 
-src={italy} />
+<Img src={italy} />
 <Img src={germany} />
 <Img src={hungary} />
+<Img src={romania} />
 
 
 </Col>

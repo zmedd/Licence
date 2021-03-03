@@ -26,8 +26,8 @@ url:'http://localhost:3000/Contact',
 clsName: 'nav-links'
     },
     {
-title: 'Sign Up',
-url:'http://localhost:3000/SingUp',
+title: 'SignUp',
+url:'http://localhost:3000/signUp',
 clsName: 'nav-links'
     },
 ]

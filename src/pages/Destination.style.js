@@ -8,6 +8,7 @@ color: white;
   z-index: 3;
   max-width: 1180px;
   margin: auto;
+ 
 `;
 export const Col = styled.div`
  width: 33.3333%;

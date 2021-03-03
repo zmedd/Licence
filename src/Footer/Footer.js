@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container,Title,Column,Row } from '../Footer/Footer.style';
 
-import { FaGithub, FaInstagram ,FaFacebookF } from 'react-icons/fa';
+import { FaGithub, FaInstagram ,FaFacebookF,FaLinkedin } from 'react-icons/fa';
 
 
 
@@ -34,6 +34,11 @@ const Footer = () => {
                 <Row>
                 <a href="#">
                    <FaFacebookF  className='fecebook'/>
+                   </a>
+                </Row>
+                <Row>
+                <a href="https://www.linkedin.com/in/s%C4%83r%C4%83teanu-victoria-591188207/">
+                   <FaLinkedin  className='linkedin'/>
                    </a>
                 </Row>
               
