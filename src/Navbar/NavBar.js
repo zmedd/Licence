@@ -8,24 +8,17 @@ export const NavBar = ({url}) =>{
     return(
         <NavBarStyle>
    <div >
-      
        <nav className="Navbar">
-
 <ul>
- 
     { MenuItems.map ( (item , index) =>{
 return(
-   
     <li key={index} >
-      
     <a className={item.className} href={item.url}>
         {item.title }
-       
-          </a>
+        </a>
 </li>
 )
     })}
- 
    
 </ul>
        </nav>
