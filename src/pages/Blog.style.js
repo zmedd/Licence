@@ -6,9 +6,7 @@ width:100%;
 background-color:${color.grey};
 #more{
     display:none;
-
 }
-
 `;
 
 export const Paragraph = styled.p`
