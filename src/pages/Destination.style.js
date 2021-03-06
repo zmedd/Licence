@@ -2,30 +2,27 @@ import styled from 'styled-components';
 import {color} from '../environment/colors';
 
 export const Container = styled.div`
-width:100%;
-color: white;
-  position: relative;
-  z-index: 3;
-  max-width: 1180px;
-  margin: auto;
- 
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+
 `;
 export const Col = styled.div`
- width: 33.3333%;
-  flex: unset;
-  display:flex;
-flex:unset;
+   width: 50%;
+
 
 `;
 export const Img = styled.img`
-
-width:450px;
-height:450px;
-padding:1rem;
+width:100%;
 
 `;
 export const Row = styled.div`
-width:100%;
-display:flex;
-flex-wrap:wrap;
+display: flex;
+  flex-wrap: wrap;
+
+`;
+export const Card = styled.div`
+width:100%unset;
+border:1px solid black;
+
 `;

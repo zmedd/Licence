@@ -7,8 +7,16 @@ clsName: 'nav-links'
     },
     {
 title: 'Destination',
+//ceva dropdown
 url:'http://localhost:3000/Destination',
-clsName: 'nav-links'
+clsName: 'nav-links',
+submanu:[{
+    Mare:'http://localhost:3000/HomePage',
+}
+   
+
+
+]
     },
     {
 title: 'About Us',

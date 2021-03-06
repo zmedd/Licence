@@ -1,4 +1,4 @@
-import React  from 'react';
+import React, { useState }  from 'react';
 import NavBar from './Navbar/NavBar';
 import HomePage from './pages/HomePage'
 import  AboutUs from './pages/AboutUs';
@@ -8,19 +8,16 @@ import Contact from './pages/Contact';
 import SignUp from './pages/SignUp';
 import Footer from './Footer/Footer';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
-
-
-
-
+import './style.css';
 
 
 function App() {
   return(
-
+    
 
  <Router>
-   <NavBar/>
+   <NavBar /> 
+
   <Switch>
    <Route exact path='/homepage' component={HomePage} />
    <Route exact path='/destination' component={Destination} />
@@ -28,7 +25,7 @@ function App() {
    <Route exact path='/blog' component={Blog} />
    <Route exact path='/contact' component={Contact}/>
    <Route exact path='/signup' component={SignUp} />
-   {/* nu functioneaza signUp */}
+
   </Switch>
 
 <Footer />
@@ -39,7 +36,6 @@ function App() {
 
   )
 }
-
 
  
 
