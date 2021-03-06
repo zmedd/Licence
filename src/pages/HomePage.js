@@ -12,15 +12,15 @@ const HomePage = () => {
        
        
        <Video  autoPlay  muted loop > 
-       <div>
-       <Section className="section">
-<h2>Bun venit!</h2>
-</Section>
-       </div>
-         
             <source src={video} type="video/mp4" className="video"  /> 
+            <Section className="section">
+       ceva text
+       <Button>Btn</Button>
+</Section>
         </Video> 
-     
+        
+       
+      
            </div>
 
   </Container>

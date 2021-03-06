@@ -34,6 +34,9 @@ const Footer = () => {
                    <FaLinkedin  className='linkedin'/>
                    </a>
 </Row>
+<Row>
+    <p>copyright &copy; 2021 by Sarateanu Victoria</p>
+</Row>
             </Container>
          </div>
     );
