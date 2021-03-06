@@ -3,47 +3,42 @@ import {color} from '../environment/colors';
 
 export const   Container = styled.div`
 background-color: ${color.blue};
-
-margin-top:2rem;
-color: white;
-  position: relative;
-  z-index: 3;
-  
+color:${color.yellow};
+a{
+   text-decoration:none;
+   padding:1rem;
+}
  .github{
-     font-size:2rem;
+   font-size:2rem;
+    margin-top:2rem; 
+    
  }
  .instagram{
-     font-size:2rem;
-    margin-top:0.5rem;
+   font-size:2rem;
+    margin-top:2rem; 
  }
  .fecebook{
-    font-size:2rem;
-    margin-top:0.5rem; 
+   font-size:2rem;
+    margin-top:2rem; 
  }
  .linkedin{
     font-size:2rem;
-    margin-top:0.5rem; 
+    margin-top:2rem; 
  }
 `;
-
-export const ContentFooter = styled.div`
-
-`;
-
-export const Title = styled.h1`
-text-align:center;
-`;
-
-
-export const Row = styled.div`
-display:flex;
-flex-wrap:wrap;
-
-`;
-
-export const Column = styled.div`
-width:50%;
+export const Title = styled.div`
+justify-content:center;
 text-align:center;
 align-items:center;
+
+`;
+export const Row = styled.div`
+ width:100%;
+display:flex;
+text-transform:uppercase;
+justify-content:center;
+text-align:center;
+align-items:center;
+
 
 `;

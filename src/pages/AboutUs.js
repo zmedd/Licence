@@ -5,7 +5,18 @@ export const AboutUs = () =>{
     return(
         <div>
          <Container>
-             <p>Salut</p>
+
+
+
+
+             
+             ceva desppre firma(fondata in...)
+
+
+
+
+            team members
+            aici poza plus descriere (ocupatie +numepren)
          </Container>
         </div>
     )
